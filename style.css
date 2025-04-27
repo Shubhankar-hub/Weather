@@ -1,0 +1,206 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7f50, #f1c40f); /* Gradient background */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Container for centralizing the content */
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Subheading or paragraph */
+p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Input Box Styling */
+input[type="text"] {
+    width: 60%;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Box Focus Effect */
+input[type="text"]:focus {
+    background-color: #ff7f50;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 127, 80, 0.7);
+}
+
+/* Suggestions List */
+#suggestions {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.suggestion-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+/* Hover Effect for Suggestions */
+.suggestion-item:hover {
+    background-color: #ff6347;
+    color: white;
+}
+
+/* Button Styling */
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 30px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #e84c3d;
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8e44ad; /* Change to a vibrant color like #ff6347 (Tomato) */
+    font-size: 1.2em;
+    font-style: italic;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+/* Weather Details Section */
+#weatherDetails {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    color: #fff;
+}
+
+/* Weather Info Styling */
+h3 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Weather Paragraph Styling */
+p {
+    font-size: 1.4em;
+    margin: 15px 0;
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+/* Icons & Weather Detail Spacing */
+.weather-info {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    button {
+        font-size: 1.2em;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+}
+
+
+/* for tourism
+ */
+
+/* Same as your previous CSS with minor adjustments for tourism page */
+
+#touristSpots {
+    margin-top: 30px;
+}
+
+.tourist-spot {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tourist-spot h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tourist-spot p {
+    font-size: 1.1em;
+    color: #ffeb3b;
+}
